@@ -6,6 +6,8 @@ server {
   rails_env production;
   root /usr/local/share/sites/yourapp/public;
 
+  charset utf-8;
+
   location = /images/tp.gif {
     empty_gif;
   }
