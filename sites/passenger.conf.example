@@ -1,0 +1,12 @@
+server {
+  listen 80;
+  server_name localhost;
+
+  passenger_enabled on;
+  rails_env production;
+  root /usr/local/share/sites/yourapp/public;
+
+  location = /images/tp.gif {
+    empty_gif;
+  }
+}
